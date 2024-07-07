@@ -244,7 +244,7 @@ void gameLoop()
                     joined = true;
                 }
 
-                else if(event.type == SDL_KEYDOWN)
+                else if(event.type == SDL_KEYDOWN && !menu)
                 {
                     switch(event.key.keysym.sym)
                     {
