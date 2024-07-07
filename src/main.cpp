@@ -182,28 +182,28 @@ void render()
 //Called when restarting a game.
 void reset()
 {
-    menu = true;
-    paused = false;
-    gameComplete = false; 
+        menu = true;
+        paused = false;
+        gameComplete = false; 
 
-    versus = false;
-    joined = false;
-    
-    paddle1.x = 0;
-    paddle1.y = 400; 
+        versus = false;
+        joined = false;
+        
+        paddle1.x = 0;
+        paddle1.y = 400; 
 
-    paddle2.x = 790;
-    paddle2.y = 400; 
+        paddle2.x = 790;
+        paddle2.y = 400; 
 
-    score1 = 0;
-    score2 = 0;
+        score1 = 0;
+        score2 = 0;
 
-    lives = 10;
+        lives = 10;
 
-    minutes = 1; 
-    seconds = 0;
+        minutes = 1; 
+        seconds = 0;
 
-    ball->reset();
+        ball->reset();
 }
 
 //Main game loop.

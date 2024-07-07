@@ -142,13 +142,13 @@ void Ball::render(SDL_Renderer* renderer)
 //Called when restarting a game.
 void Ball::reset()
 {
-    x = 400;
-    y = 250; 
+        x = 400;
+        y = 250; 
 
-    srand(time(NULL));
-    int directionX = rand() % 2; 
-    int directionY = rand() % 2; 
+        srand(time(NULL));
+        int directionX = rand() % 2; 
+        int directionY = rand() % 2; 
 
-    if(directionX == 0) directionX = -1; 
-    if(directionY == 0) directionY = -1;
+        if(directionX == 0) directionX = -1; 
+        if(directionY == 0) directionY = -1;
 }
