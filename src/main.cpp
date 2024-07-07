@@ -57,10 +57,10 @@ void init()
         int PaddleHeight = 100; 
 
         int paddle1X = 0; 
-        int paddle1Y = 400; 
+        int paddle1Y = 200; 
 
         int paddle2X = 790; 
-        int paddle2Y = 400; 
+        int paddle2Y = 200; 
 
         paddle1 = {paddle1X, paddle1Y, PaddleWidth, PaddleHeight}; 
         paddle2 = {paddle2X, paddle2Y, PaddleWidth, PaddleHeight}; 
@@ -190,10 +190,10 @@ void reset()
         joined = false;
         
         paddle1.x = 0;
-        paddle1.y = 400; 
+        paddle1.y = 200; 
 
         paddle2.x = 790;
-        paddle2.y = 400; 
+        paddle2.y = 200; 
 
         score1 = 0;
         score2 = 0;
