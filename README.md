@@ -1,2 +1,4 @@
 # Pong
-Created Pong using C++ and SDL2
+Created simple pong along with another game mode using C++ and SDL2. 
+
+# Screenshots
